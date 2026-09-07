@@ -17,7 +17,7 @@ export default function Hero({ darkMode }) {
 
           <div className="flex justify-center gap-4 flex-wrap">
             <a
-              href="../assets/my-cv.pdf"
+              href="./assets/my-cv.pdf"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105"
             >
               Download CV
