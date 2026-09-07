@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import CV from '../assets/my-cv.pdf';
 
 export default function Hero({ darkMode }) {
   return (
@@ -17,7 +18,7 @@ export default function Hero({ darkMode }) {
 
           <div className="flex justify-center gap-4 flex-wrap">
             <a
-              href="../src/assets/my-cv.pdf"
+              href={CV}
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105"
             >
               Download CV
