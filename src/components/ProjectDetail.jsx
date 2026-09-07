@@ -4,6 +4,9 @@ import { projects } from './Projects';
 export default function ProjectDetail({ projectId }) {
   const project = projects[Number(projectId)];
 
+
+
+
   if (!project) {
     return (
       <main className="min-h-screen bg-gray-50 px-4 py-20 text-center text-gray-800">
