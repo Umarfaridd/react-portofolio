@@ -35,7 +35,7 @@ export default function Hero({ darkMode }) {
             <a href="https://github.com/Umarfaridd" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Github size={24} className="text-gray-800" />
             </a>
-            <a href="https://www.linkedin.com/in/umar-farid-845648350" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/umar-farid-al-faqihi-845648350" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Linkedin size={24} className="text-blue-600" />
             </a>
             <a href="mailto:umarfarid273@gmail.com" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
