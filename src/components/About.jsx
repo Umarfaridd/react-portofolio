@@ -33,7 +33,7 @@ export default function About({ darkMode }) {
                 Web Development
               </span>
               <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-medium">
-                Informatics Student
+                Informatics Engineering
               </span>
               <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-medium">
                 UI Enthusiast

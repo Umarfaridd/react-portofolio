@@ -4,7 +4,7 @@ export default function Footer({ darkMode }) {
       <div className="max-w-6xl mx-auto text-center">
         <p className="text-lg font-semibold mb-2">Umar Farid Al Faqihi</p>
         <p className="text-gray-400 mb-4">
-          Frontend Developer • Web Development • Informatics Student
+          Frontend Developer • Web Development • Informatics Engineering
         </p>
       </div>
     </footer>
