@@ -3,7 +3,7 @@ export default function Education({ darkMode }) {
   
     return(
       <section id="Education" className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-gradient-to-br from-blue-50 to-purple-50 text-gray'}`}>
-        <div className="education px-12 py-12 ">
+        <div className="max-w-6xl mx-auto px-12 py-12 ">
           <h2 className={`text-4xl font-bold text-center ${darkMode ? 'text-white' : 'text-gray-800'}`}>
             Education
           </h2>
