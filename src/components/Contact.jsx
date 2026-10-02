@@ -66,13 +66,13 @@ export default function Contact({ darkMode }) {
               <span className="flex items-center gap-2"><Phone size={20} color="blue" />Phone : +628978075786</span>
             </p>
           <div className="flex justify-center lg:justify-start gap-6 mb-8">
-            <a href="https://github.com/Umarfaridd" className="bg-white text-gray-800 p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="https://github.com/Umarfaridd" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-800 p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Github size={28} className="text-white-800" />
             </a>
-            <a href="https://www.linkedin.com/in/umar-farid-al-faqihi-845648350" className="bg-white p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/umar-farid-al-faqihi-845648350" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Linkedin size={28} className="text-blue-600" />
             </a>
-            <a href="mailto:umarfarid273@gmail.com" className="bg-white p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="mailto:umarfarid273@gmail.com" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Mail size={28} className="text-red-500" />
             </a>
           </div>
