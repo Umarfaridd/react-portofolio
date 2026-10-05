@@ -32,13 +32,13 @@ export default function Hero({ darkMode }) {
           </div>
 
           <div className="flex justify-center gap-4 mt-8">
-            <a href="https://github.com/Umarfaridd" target="_blank" rel="noopener noreferrer" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="https://github.com/Umarfaridd" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Github size={24} className="text-gray-800" />
             </a>
-            <a href="https://www.linkedin.com/in/umarfaridalf" target="_blank" rel="noopener noreferrer" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/umarfaridalf" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Linkedin size={24} className="text-blue-600" />
             </a>
-            <a href="mailto:umarfarid273@gmail.com" target="_blank" rel="noopener noreferrer" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
+            <a href="mailto:umarfarid273@gmail.com" className="bg-white p-3 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
               <Mail size={24} className="text-red-500" />
             </a>
           </div>
