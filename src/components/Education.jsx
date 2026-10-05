@@ -28,7 +28,7 @@ export default function Education({ darkMode }) {
             </li>
             <div className="education-title">
               <h2>
-                Focused on frontend development and responsive design, creating user experiences that are intuitive, comfortable, and easy to use.
+                Focused on FrontEnd Development and responsive design, creating user experiences that are intuitive, comfortable, and easy to use.
               </h2>
             </div>
           </div>
