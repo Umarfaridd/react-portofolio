@@ -1,9 +1,31 @@
-import{FaGithub, FaHtml5, FaCss3, FaJs, FaReact, FaPhp, FaBootstrap, FaFileWord,  FaPython, FaFigma } from 'react-icons/fa';
+import{FaGithub, FaHtml5, FaCss3, FaJs, FaReact, FaPhp, FaBootstrap, FaFileWord,  FaPython, FaFigma} from 'react-icons/fa';
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { PiMicrosoftExcelLogo } from "react-icons/pi";
 import { GrMysql } from "react-icons/gr";
-import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis,} from "react-icons/si";
+import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis, SiPowerapps} from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
+const PowerBIIcon = ({ size = 30 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 13h4v8H4z"
+      fill="#F2C811"
+    />
+    <path
+      d="M10 8h4v13h-4z"
+      fill="#E6B800"
+    />
+    <path
+      d="M16 3h4v18h-4z"
+      fill="#F2C811"
+    />
+  </svg>
+);
 
 
 
@@ -27,7 +49,9 @@ const skills = [
   { 'Postman' : <SiPostman size={60} color="#FF6C37"/>},
   { 'Laragon' : <SiLaragon size={60} color="#000000"/>},
   { 'PhpMyAdmin' : <SiPhpmyadmin size={60} color="#7777FF"/>},
-  { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>}
+  { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>},
+  { 'Power BI' : <PowerBIIcon/> },
+  { 'Power Apps' : <SiPowerapps size={60} color="#4286f4"/> },
 
 ];
 
