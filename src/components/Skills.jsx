@@ -4,7 +4,7 @@ import { PiMicrosoftExcelLogo } from "react-icons/pi";
 import { GrMysql } from "react-icons/gr";
 import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis} from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
-const PowerBIIcon = ({ size = 30 }) => (
+const PowerBIIcon = ({ size = 60 }) => (
   <svg
     width={size}
     height={size}
