@@ -2,7 +2,7 @@ import{FaGithub, FaHtml5, FaCss3, FaJs, FaReact, FaPhp, FaBootstrap, FaFileWord,
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { PiMicrosoftExcelLogo } from "react-icons/pi";
 import { GrMysql } from "react-icons/gr";
-import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis, SiPowerbi, SiPowerapps } from "react-icons/si";
+import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
 
 
@@ -27,9 +27,7 @@ const skills = [
   { 'Postman' : <SiPostman size={60} color="#FF6C37"/>},
   { 'Laragon' : <SiLaragon size={60} color="#000000"/>},
   { 'PhpMyAdmin' : <SiPhpmyadmin size={60} color="#7777FF"/>},
-  { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>},
-  { 'Power BI' : <SiPowerbi size={60} color="#F2C811"/>},
-  { 'Power Apps' : <SiPowerapps size={60} color="#742774"/>},
+  { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>}
 ];
 
 const skillRows = [skills.slice(0, 9), skills.slice(9)];
