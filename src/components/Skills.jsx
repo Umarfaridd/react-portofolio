@@ -27,6 +27,20 @@ const PowerBIIcon = ({ size = 60 }) => (
   </svg>
 );
 
+const PowerAppsIcon = ({ size = 60 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Bentuk geometris khas logo Power Apps */}
+    <path d="M2 8.5L11.5 2L21 8.5V15.5L11.5 22L2 15.5V8.5Z" fill="#742774" />
+    <path d="M11.5 2L21 8.5L11.5 15L2 8.5L11.5 2Z" fill="#863A86" />
+    <path d="M11.5 15V22L2 15.5V8.5L11.5 15Z" fill="#5F165F" />
+  </svg>
+);
 
 
 
@@ -50,8 +64,8 @@ const skills = [
   { 'Laragon' : <SiLaragon size={60} color="#000000"/>},
   { 'PhpMyAdmin' : <SiPhpmyadmin size={60} color="#7777FF"/>},
   { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>},
-  { 'Power BI' : <PowerBIIcon/> }
-
+  { 'Power BI' : <PowerBIIcon/> },
+  { 'Power Apps' : <PowerAppsIcon/> },
 ];
 
 const skillRows = [skills.slice(0, 9), skills.slice(9)];
