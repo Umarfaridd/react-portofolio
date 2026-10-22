@@ -4,7 +4,7 @@ import { Menu, Moon, Sun, X } from 'lucide-react';
 export default function Navbar({ darkMode, toggleDarkMode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const links = ['Home', 'About', 'Projects', 'Skills', 'Contact'];
+  const links = ['Home', 'About', 'Projects', 'Skills', 'Certificate', 'Contact'];
 
 
   const scrollToSection = (section) => {

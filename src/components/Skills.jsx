@@ -46,7 +46,7 @@ const PowerAppsIcon = ({ size = 60 }) => (
 
 
 const skills = [
-  { 'React.js' : <FaReact size={60} color="#61DAFB" className=""/>},
+  { 'React.js' : <FaReact size={60} color="#61DAFB"/>},
   { 'Github' : <FaGithub size={60} color="#181717"/>},
   { 'PHP' : <FaPhp size={60} color="#7777FF"/>},
   { 'HTML' : <FaHtml5 size={60} color="#E34F26"/>},
