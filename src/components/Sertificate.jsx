@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { ArrowRight, Eye, X } from 'lucide-react';
-import bnspBeton from '../assets/assets-sertif/BNSP-beton.jpeg';
 import mlBeginner from '../assets/assets-sertif/sertif-ML-beginner-bisaai.png';
 import dataScience from '../assets/assets-sertif/sertif-data-science-bisaai.png';
 import dasarPython from '../assets/assets-sertif/sertif-dasar-python-bisaai.png';
