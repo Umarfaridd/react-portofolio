@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import ProjectDetail from './components/ProjectDetail';
 import RevealSection from './components/RevealSection';
+import Sertificate from './components/Sertificate';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <RevealSection><Experiences darkMode={darkMode} /></RevealSection>
       <RevealSection><Projects darkMode={darkMode} /></RevealSection>
       <RevealSection><Skills darkMode={darkMode} /></RevealSection>
+      <RevealSection><Sertificate darkMode={darkMode} /></RevealSection>
       <RevealSection><Contact darkMode={darkMode} /></RevealSection>
       <RevealSection><Footer darkMode={darkMode} /></RevealSection>
     </div>
