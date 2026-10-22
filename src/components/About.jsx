@@ -19,8 +19,7 @@ export default function About({ darkMode }) {
               I also have experience in Data Mining and Machine Learning through my student internship at PPSDM Migas and my final project at university.
             </p>
             <p className={`flex flex-col gap-2 text-base leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-              <span className="flex items-center gap-2"><User size={24} color="blue"/>Age : 22 Years Old</span>
-              <span className="flex items-center gap-2"><House size={24} color="blue" />City : Blora, Central Java</span>
+              <span className="flex items-center gap-2"><User size={24} color="blue"/>Age : 22 Years Old</span>          
               <span className="flex items-center gap-2"><Mail size={24} color="blue" />Email : Umarfarid273@gmail.com</span>
               <span className="flex items-center gap-2"><Phone size={24} color="blue" />Phone : +628978075786</span>
               <span className="flex items-center gap-2"><GraduationCap size={24} color="blue" />Degree : S-1 Informatics Engineering</span>
