@@ -20,8 +20,7 @@ export default function About({ darkMode }) {
             </p>
             <p className={`flex flex-col gap-2 text-base leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               <span className="flex items-center gap-2"><User size={24} color="blue"/>Age : 22 Years Old</span>          
-              <span className="flex items-center gap-2"><Mail size={24} color="blue" />Email : Umarfarid273@gmail.com</span>
-              <span className="flex items-center gap-2"><Phone size={24} color="blue" />Phone : +628978075786</span>
+              <span className="flex items-center gap-2"><Mail size={24} color="blue" />Email : umarfarid273@gmail.com</span>            
               <span className="flex items-center gap-2"><GraduationCap size={24} color="blue" />Degree : S-1 Informatics Engineering</span>
             </p>
             <div className="flex flex-wrap md:gap-3 gap-2 mt-6">

@@ -62,8 +62,9 @@ export default function Contact({ darkMode }) {
             contact me with my social media or send me a message using the form below. I look forward to hearing from you!
           </p>
           <p className={`mb-8 flex flex-col gap-2 text-base leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-              <span className="flex items-center gap-2"><Mail size={20} color="blue" />Email : Umarfarid273@gmail.com</span>
-              <span className="flex items-center gap-2"><Phone size={20} color="blue" />Phone : +628978075786</span>
+              <span className="flex items-center gap-2"><Mail size={20} color="blue" />Email : umarfarid273@gmail.com</span>
+              <span className="flex items-center gap-2"><Linkedin size={20} color="blue" />Linkedin : umarfaridalf</span>
+              <span className="flex items-center gap-2"><Github size={20} color="blue" />Github : Umarfaridd</span>          
             </p>
           <div className="flex justify-center lg:justify-start gap-6 mb-8">
             <a href="https://github.com/Umarfaridd" target="_blank" rel="noopener noreferrer" className="bg-white text-gray-800 p-4 rounded-full shadow-lg hover:shadow-xl transition transform hover:scale-110">
