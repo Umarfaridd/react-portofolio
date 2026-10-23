@@ -9,7 +9,7 @@ export default function Experineces({ darkMode }){
                     <div className="experiences-title px-6">
                         <h3 className={`flex justify-between items-center text-2xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`} >
                             Student Internship
-                            <span className="text-sm font-normal">Juni 2021 - Desember 2021</span>
+                            <span className="text-sm font-normal">Juny 2021 - December 2021</span>
                         </h3>
                         <h4 className={`font-semibold ${darkMode ? 'text-gray-400' : 'text-gray-800'} pb-1`} >
                             CV. Mekar Sari
@@ -26,7 +26,7 @@ export default function Experineces({ darkMode }){
                     <div className="experiences-title px-6">
                         <h3 className={`flex justify-between items-center text-2xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`} >
                             Student Internship
-                            <span className="text-sm font-normal">April 2025 - Mei 2025</span>
+                            <span className="text-sm font-normal">April 2025 - May 2025</span>
                         </h3>
                         <h4 className={`font-semibold ${darkMode ? 'text-gray-400' : 'text-gray-800'}pb-1`} >
                             PPSDM Migas

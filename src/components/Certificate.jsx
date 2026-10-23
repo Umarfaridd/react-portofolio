@@ -4,9 +4,16 @@ import mlBeginner from '../assets/assets-sertif/sertif-ML-beginner-bisaai.png';
 import dataScience from '../assets/assets-sertif/sertif-data-science-bisaai.png';
 import dasarPython from '../assets/assets-sertif/sertif-dasar-python-bisaai.png';
 import dasarJS from '../assets/assets-sertif/sertif-dasar-js-dicoding.jpg';
+import skPkl from '../assets/assets-sertif/SK-PPSDM.jpg';
 
 
 const certificateData = [
+    {
+        title: 'Surat Keterangan (SK) Praktik Kerja Lapangan',
+        by:'PPSDM Migas',
+        date: 'May 2025',
+        image: skPkl
+    },
     {
         title: 'Dasar-dasar JavaScript',
         by: 'Dicoding',
@@ -19,7 +26,6 @@ const certificateData = [
         date: 'Agustus 2026',
         image: mlBeginner,
     },
-    
     {
         title: 'Data Science with Python',
         by: 'BISA AI',

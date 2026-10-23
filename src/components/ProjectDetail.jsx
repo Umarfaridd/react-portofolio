@@ -12,7 +12,7 @@ export default function ProjectDetail({ projectId }) {
       <main className="min-h-screen bg-gray-50 px-4 py-20 text-center text-gray-800">
         <h1 className="mb-6 text-3xl font-bold">Project tidak ditemukan</h1>
         <button onClick={() => window.history.back()} className="text-blue-600 hover:text-blue-800">
-          Kembali ke portfolio
+          Back to Projects
         </button>
       </main>
     );
@@ -25,7 +25,7 @@ export default function ProjectDetail({ projectId }) {
           className="mb-8 inline-flex items-center gap-2 font-semibold text-blue-600 hover:text-blue-800"
         >
           <ArrowLeft size={18} />
-          Kembali ke projects
+          Back to Projects
         </button>
 
         <article className="overflow-hidden rounded-xl bg-white shadow-lg">
@@ -44,7 +44,7 @@ export default function ProjectDetail({ projectId }) {
             <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {project.features?.length > 0 && (
                   <div>
-                    <h2 className="mb-3 text-xl font-bold">Fitur Project</h2>
+                    <h2 className="mb-3 text-xl font-bold">Project Features</h2>
                     <ul className="mb-8 list-disc space-y-2 pl-5 text-gray-700">
                       {project.features.map((feature) => <li key={feature}>{feature}</li>)}
                     </ul>
@@ -52,17 +52,17 @@ export default function ProjectDetail({ projectId }) {
                 )}
                 {project.demo && (
                   <div>
-                    <h2 className="mb-3 text-xl font-bold">Demo Project</h2>
+                    <h2 className="mb-3 text-xl font-bold">Preview Project</h2>
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mb-8 rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
                       <ExternalLink size={16} />
-                      Link to Demo Project
+                      Link to Preview Project
                     </a>
                   </div>
                 )}
             </div>
             {project.gallery?.length > 0 && (
               <div>
-                <h2 className="mb-3 text-xl font-bold">Foto Project</h2>
+                <h2 className="mb-3 text-xl font-bold">Project Images</h2>
                 <div className="mb-8 grid gap-4 sm:grid-cols-2">
                   {project.gallery.map((photo, index) => (
                     <img key={`${project.title}-${index}`} src={photo} alt={`${project.title} ${index + 1}`} className="h-auto w-full rounded-lg object-cover" />
