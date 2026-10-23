@@ -63,7 +63,7 @@ export const projects = [
 {
   title: 'Machine Learning Classification',
   description: 'A Machine Learning classification model using an original dataset to help predict data.',
-  detail: 'A fake news prediction and analysis system using four Machine Learning (ML) algorithms, trained on an original dataset collected from six online news platforms.',
+  detail: 'A final project completed as a requirement for university graduation. It is A fake news prediction and analysis system using four Machine Learning (ML) algorithms, trained on an original dataset collected from six online news platforms.',
   features: ['Original dataset','Data preprocessing', 'Feature selection', 'Model training', 'Model evaluation','Optimalization'],
   tech: ['Python', 'Jupyter', 'Machine Learning'],
   image: machineLearningImage,
