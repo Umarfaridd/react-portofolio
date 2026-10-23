@@ -14,13 +14,11 @@ export default function Experineces({ darkMode }){
                         <h4 className={`font-semibold ${darkMode ? 'text-gray-400' : 'text-gray-800'} pb-1`} >
                             CV. Mekar Sari
                         </h4>
-                        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`} >
-                            
+                        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`} >                            
                                 <li className="list-disc ml-5">Assisted in planning and executing construction projects</li>
                                 <li className="list-disc ml-5">Created technical drawings and designs using AutoCAD</li>
                                 <li className="list-disc ml-5">Monitored project implementation to ensure compliance with procedures and technical drawings.</li>
-                                <li className="list-disc ml-5">Collaborated with team members to ensure project completion</li>
-                            
+                                <li className="list-disc ml-5">Collaborated with team members to ensure project completion</li>                            
                         </p>                     
                     </div>
                     <div className="experiences-title px-6">
@@ -31,13 +29,11 @@ export default function Experineces({ darkMode }){
                         <h4 className={`font-semibold ${darkMode ? 'text-gray-400' : 'text-gray-800'}pb-1`} >
                             PPSDM Migas
                         </h4>
-                        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`} >
-                            
+                        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`} >                        
                                 <li className="list-disc ml-5">Developed a classification system project using Machine Learning.</li>
                                 <li className="list-disc ml-5">Performed data processing and preprocessing to prepare the dataset.</li>
                                 <li className="list-disc ml-5">Trained and evaluated Machine Learning models.</li>
-                                <li className="list-disc ml-5">Developed a classification system to support data analysis.</li>
-                            
+                                <li className="list-disc ml-5">Developed a classification system to support data analysis.</li>                            
                         </p>                                                                  
                     </div>
                 </div>
