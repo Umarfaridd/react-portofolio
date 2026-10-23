@@ -68,7 +68,7 @@ export const projects = [
   tech: ['Python', 'Jupyter', 'Machine Learning'],
   image: machineLearningImage,
   gallery: [MLproject1, MLproject2, MLproject3, MLproject4],
-  link:'https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/9492'
+  demo:'https://ejurnal.stmik-budidarma.ac.id/index.php/jurikom/article/view/9492'
 },
   {
   title: 'Restaurant Landing Page with Admin Panel',
@@ -123,8 +123,7 @@ export const projects = [
   features: ['Semantic HTML', 'Custom CSS', 'Interactive JavaScript'],
   tech: ['HTML', 'CSS', 'JS'],
   image: websitePortfolio,
-  gallery: [porto1, porto2, porto3, porto4, porto5, porto6],
-  demo: 'https://umarfaridd.github.io/portfolio/',
+  gallery: [porto1, porto2, porto3, porto4, porto5, porto6]
 },
 ];
 
