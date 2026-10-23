@@ -98,10 +98,7 @@ export default function Skills({ darkMode }) {
                 </ul>
               ))}
             </div>
-          </div>
-                       
-        
-     
+          </div>              
     </div>
     </section>
   );
