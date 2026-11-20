@@ -8,6 +8,20 @@ export default function Experineces({ darkMode }){
                 <div className="experiences-content grid md:grid-cols-2 gap-10 py-8 text-left">
                     <div className="experiences-title px-6">
                         <h3 className={`flex justify-between items-center text-2xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`} >
+                            Internship MagangHub Batch 2 - Adm of System Managements
+                            <span className="text-sm font-normal">September 2026 - Now</span>
+                        </h3>
+                        <h4 className={`font-semibold ${darkMode ? 'text-gray-400' : 'text-gray-800'}pb-1`} >
+                            PT. Semen Gresik Plant Rembang
+                        </h4>
+                        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'}`} >                        
+                                <li className="list-disc ml-5">Managed and organized data using Microsoft SharePoint to support efficient data management and accessibility.</li>
+                                <li className="list-disc ml-5">Performed data analysis and developed interactive dashboards using Power BI to deliver actionable insights and support data-driven decision-making.</li>
+                                <li className="list-disc ml-5">Maintained and updated deployed applications built with Microsoft Power Apps to ensure functionality and reliability.</li>                        
+                        </p>                                                                  
+                    </div>
+                    <div className="experiences-title px-6">
+                        <h3 className={`flex justify-between items-center text-2xl font-bold mb-2 ${darkMode ? 'text-white' : 'text-gray-800'}`} >
                             Student Internship
                             <span className="text-sm font-normal">April 2025 - May 2025</span>
                         </h3>
