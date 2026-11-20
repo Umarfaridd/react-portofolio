@@ -4,6 +4,35 @@ import { PiMicrosoftExcelLogo } from "react-icons/pi";
 import { GrMysql } from "react-icons/gr";
 import { SiPostman, SiLaragon, SiPhpmyadmin, SiArcgis} from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
+
+const SharePointIcon = ({ size = 60 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Lingkaran Besar (Atas Kanan) */}
+    <circle cx="14.5" cy="9" r="6.5" fill="#036C70" />
+    
+    {/* Lingkaran Sedang (Kanan Bawah) */}
+    <circle cx="16.5" cy="15.5" r="5" fill="#1A9BA1" />
+    
+    {/* Lingkaran Kecil (Bawah Tengah) */}
+    <circle cx="11.5" cy="18.5" r="3.5" fill="#37C6D0" />
+    
+    {/* Kotak Utama (Kiri) */}
+    <rect x="2" y="6" width="12" height="12" rx="2" fill="#038387" />
+    
+    {/* Huruf "S" */}
+    <path
+      d="M8.1 14.8c-1.3 0-2.3-.4-2.8-.9l.7-1.1c.5.4 1.2.7 2 .7.8 0 1.2-.3 1.2-.8 0-.5-.4-.7-1.4-1-1.4-.4-2.2-.9-2.2-2.1 0-1.2 1-2 2.5-2 1.1 0 1.9.3 2.4.7l-.6 1.1c-.4-.3-1-.6-1.7-.6-.7 0-1.1.3-1.1.7 0 .5.4.7 1.4 1 1.4.4 2.2.9 2.2 2.1 0 1.3-1 2.2-2.6 2.2z"
+      fill="#FFFFFF"
+    />
+  </svg>
+);
+
 const PowerBIIcon = ({ size = 60 }) => (
   <svg
     width={size}
@@ -66,6 +95,7 @@ const skills = [
   { 'ArcGIS' : <SiArcgis size={60} color="#0056b3"/>},
   { 'Power BI' : <PowerBIIcon/> },
   { 'Power Apps' : <PowerAppsIcon/> },
+  { 'SharePoint' : <SharePointIcon/> },
 ];
 
 const skillRows = [skills.slice(0, 9), skills.slice(9)];
